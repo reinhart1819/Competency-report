@@ -1,0 +1,155 @@
+/* this is a comment  */
+/* Global */
+*{
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color:rgb(29, 29, 29);
+    color: white;
+}
+
+/* utilities */
+.container {
+    width:70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-style:solid;border-image:linear-gradient(greenyellow, transparent) 1;border-bottom:0;
+    margin-top: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+/* header */
+header {
+    
+    font-family: 'Share Tech Mono', monospace;
+        text-align: center;
+        background-image: url(https://wallpaperaccess.com/full/1393189.jpg);
+        height: 30vh;
+        background-position:bottom center;
+        background-size: 100%;
+        
+       
+    }
+    header h2 {
+        font-size: 60px;
+        color: white;
+        text-shadow:3px 3px black;
+        
+        
+    }
+
+
+
+
+header h1 {
+    
+    color: greenyellow;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-shadow: 5px 5px rgb(3, 49, 3);
+    padding: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+/* menu */
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+    font-size: 20px;
+    
+}
+
+.fa-youtube {
+    color: red;
+}
+.fa-linkedin {
+    color: rgb(0, 123, 181);
+}
+.fa-github {
+    color: rgb(188, 188, 188);
+}
+
+nav.menu {
+    background-color: rgb(80, 78, 78);
+    padding: 10px;
+    text-align: center;   
+}
+
+/* services main */
+
+div.services {
+    background-color: #dedede;
+    /* top right bottom left */
+    margin:10px 0 10px 0 ;
+    color: black;
+    border-radius: 10px;
+    padding: 20px;
+}
+div.services p {
+    line-height: 2;
+}
+div.services-icon {  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: greenyellow;
+    width: 50px;
+    text-align: center;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px auto 10px auto;
+}
+div.services-icon i {
+    font-size: 25px;
+}
+
+/* projects */
+ul,ol {
+    background-color: #dedede;
+    width: 50%;
+    padding: 30px;
+}
+ 
+ul li,ol li {
+    border-left:5px solid greenyellow;
+    padding: 10px;
+    color: black;
+    background-color: grey;
+    margin: 10px;
+}
+
+ul li:hover, ol li:hover {
+    background-color: greenyellow;
+    font-weight: 800;
+    
+}
+
+ol li {
+    color: black;
+}
+h5 {
+    font-size: 25px;
+}
+
+
+
+
+
+
